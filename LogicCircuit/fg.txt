@@ -1,0 +1,16 @@
+#TEST1_expected_true
+set_input adr0 false
+set_input adr1 false
+set_input D0 true
+set_input D1 false
+set_input D2 false
+set_input D3 true
+show_port F
+#TEST2_expected_false
+set_input adr0 true
+set_input adr1 true
+set_input D0 false
+set_input D1 false
+set_input D2 false
+set_input D3 false
+show_port F
